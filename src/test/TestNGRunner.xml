@@ -1,0 +1,8 @@
+<suite name="FirstSuite" verbose = "1" parallel="classes">
+
+    <test name="RegressionTest">
+        <classes>
+            <class name="Calculator" />
+        </classes>
+    </test>
+</suite>
