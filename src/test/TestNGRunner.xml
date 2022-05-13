@@ -1,6 +1,18 @@
-<suite name="FirstSuite" verbose = "1" parallel="classes">
+<suite name="FirstSuite" verbose = "1" parallel="methods">
 
     <test name="RegressionTest">
+
+        <groups>
+            <run>
+                <include name="addition"/>
+                <include name="subtraction"/>
+                <include name="division"/>
+                <include name="multiplication"/>
+                <include name="remainder"/>
+
+            </run>
+        </groups>
+
         <classes>
             <class name="Calculator" />
         </classes>
